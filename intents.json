@@ -1,0 +1,134 @@
+{
+    "intents": [
+        {
+            "tag": "book_ticket",
+            "patterns": [
+                "I want to book a ticket",
+                "Can I reserve a ticket for the museum?",
+                "Book a ticket for the exhibition",
+                "I need to book a ticket for tomorrow",
+                "Reserve a ticket for me"
+            ],
+            "responses": [
+                "Sure! I can help you book a ticket. Could you please provide the date and time?"
+            ]
+        },
+        {
+            "tag": "cancel_ticket",
+            "patterns": [
+                "I want to cancel my ticket",
+                "Can you cancel my booking?",
+                "Cancel my reservation",
+                "I need to cancel my ticket",
+                "Please cancel my ticket"
+            ],
+            "responses": [
+                "Your ticket cancellation request is being processed. Can you please provide the booking ID?"
+            ]
+        },
+        {
+            "tag": "check_availability",
+            "patterns": [
+                "Is there any ticket available for today?",
+                "Check availability for the museum",
+                "Are there tickets available for the show?",
+                "Is there availability for this weekend?",
+                "Can I get tickets for tomorrow?"
+            ],
+            "responses": [
+                "Let me check the availability for you. Could you please specify the date?"
+            ]
+        },
+        {
+            "tag": "payment_issue",
+            "patterns": [
+                "I am having trouble with payment",
+                "Payment is not going through",
+                "I need help with the payment",
+                "Payment failed",
+                "Can you help me with the payment process?"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're having trouble. Please provide more details about the issue, and I'll assist you."
+            ]
+        },
+        {
+            "tag": "show_schedule",
+            "patterns": [
+                "What shows are available today?",
+                "Can you tell me the schedule for the museum?",
+                "What exhibitions are available this week?",
+                "Show me the schedule for the weekend",
+                "Are there any special events today?"
+            ],
+            "responses": [
+                "Here is the schedule for the upcoming shows and exhibitions. Would you like to book a ticket?"
+            ]
+        },
+        {
+            "tag": "multilingual_support",
+            "patterns": [
+                "Can I get assistance in another language?",
+                "Do you support other languages?",
+                "I need help in Spanish",
+                "Is there multilingual support?",
+                "Can I talk in French?"
+            ],
+            "responses": [
+                "Yes, we offer multilingual support. Please choose your preferred language."
+            ]
+        },
+        {
+            "tag": "accessibility_info",
+            "patterns": [
+                "Is the museum wheelchair accessible?",
+                "Do you have facilities for disabled visitors?",
+                "What are the accessibility options?",
+                "Are there any special services for the elderly?",
+                "Can I get assistance for a disabled person?"
+            ],
+            "responses": [
+                "Our museum is fully accessible to everyone. Could you please specify what assistance you need?"
+            ]
+        },
+        {
+            "tag": "analytics_request",
+            "patterns": [
+                "Can you provide visitor statistics?",
+                "I want to see the analytics for the last month",
+                "Show me the booking data",
+                "Can I get a report on visitor trends?",
+                "Provide me with the latest analytics"
+            ],
+            "responses": [
+                "Sure! Here is the latest analytics report. Let me know if you need more details."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks a lot",
+                "I appreciate your help",
+                "Thanks for the assistance",
+                "Thank you for the information"
+            ],
+            "responses": [
+                "You're welcome! If you need any more help, feel free to ask."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Talk to you soon",
+                "Bye",
+                "Catch you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day at the museum."
+            ]
+        }
+    ]
+}
